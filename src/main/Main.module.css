@@ -4,11 +4,20 @@
 }
 
 .mainTitle {
-width: 300px;
-background-color: gray;
+    width: 300px;
+    background-color: gray;
 }
+
 .mainPhoto {
-width: 300px;
-height: 400px;
-background-color: gray;
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+}
+
+@media screen and (max-device-width: 768px) {
+    .mainBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

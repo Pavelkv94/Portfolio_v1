@@ -10,9 +10,9 @@ export function Skills() {
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <h2 className={s.title}>My skills</h2>
                 <div className={s.skills}>
-                    <MySkill title="React" description="asdasd ds kdsa khhda shasdasddsasdasdasd askkhadskda skdksa hkdash k dkds akdas kjadksj kjda s..." />
-                    <MySkill title="HTML" description="asdasd ds kdsa khhda shd askkhadskda skdksa hkdash k dkds akdas kjadksj kjda s..." />
-                    <MySkill title="JavaScript" description="asdasd ds kdsa khhda shd askkhadskda skdksa hkdash k dkds akdas kjadksj kjda s..." />
+                    <MySkill title="React" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..." />
+                    <MySkill title="HTML" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..." />
+                    <MySkill title="JavaScript" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..." />
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 .mySkillBlock {
     width: 250px;
     background-color: grey;
-    margin: 20px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,4 +12,9 @@
     height: 60px;
     transform: rotate(45deg);
     background-color: hotpink;
+}
+@media screen and (max-device-width: 768px) {
+    .mySkillBlock {
+        margin-top: 10px;
+    }
 }
