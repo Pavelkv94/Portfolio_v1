@@ -1,6 +1,6 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: rgb(222, 135, 222);
+    background-color: #1f1f20;
 }
 
 .projectsContainer {
@@ -10,9 +10,6 @@
     flex-wrap: wrap;
 }
 
-.title {
-    background-color: grey;
-}
 
 .projects {
     border: 1px solid green;
@@ -23,12 +20,10 @@
 }
 
 @media screen and (max-device-width: 768px) {
-
     .projects {
         border: 1px solid green;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-       
     }
 }
