@@ -7,7 +7,7 @@
   .mainTitle {
     margin: 5px;
     width: 350px;
-    border: 1px red solid;
+    border: $border;
     & span {
       @include text($poppinsFontFamily, 16px, 1.8);
       font-weight: 400;
@@ -45,7 +45,7 @@
     width: 300px;
     height: 400px;
     margin: 5px;
-    border: 1px red solid;
+    border: $border;
     background-image: url('./../assets/images/avatar.jpg');
     @include photo();
   }

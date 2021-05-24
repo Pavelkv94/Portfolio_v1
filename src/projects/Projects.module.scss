@@ -10,7 +10,7 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     .projects {
-      border: 1px solid green;
+      border: $border;
       display: flex;
       justify-content: space-between;
       width: 100%;
@@ -19,7 +19,7 @@
       align-items: flex-start;
 
       @media screen and (max-device-width: 768px) {
-        border: 1px solid green;
+        border: $border;
         display: flex;
         justify-content: space-between;
         flex-direction: column;

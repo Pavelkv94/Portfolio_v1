@@ -17,7 +17,7 @@
     justify-content: space-around;
     min-width: 50vw;
     height: 60vh;
-    border: 1px solid green;
+    border: $border;
     box-sizing: border-box;
     padding: 5px;
 }
@@ -34,9 +34,7 @@
     font-size: 18px;
 }
 
-.title {
-    background-color: grey;
-}
+
 
 @media screen and (max-device-width: 768px) {
     .contacts, .input, .textarea {

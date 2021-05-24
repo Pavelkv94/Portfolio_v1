@@ -10,7 +10,7 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     .skills {
-      border: 1px solid green;
+      border: $border;
       display: flex;
       justify-content: space-between;
       width: 100%;
