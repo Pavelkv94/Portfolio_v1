@@ -1,0 +1,20 @@
+@import './../common/styles/sass/variables.scss';
+@import './../common/styles/sass/mixins.scss';
+
+.skillsBlock {
+  min-height: 100vh;
+  background-color: $bgSecColor;
+  .skillsContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .skills {
+      border: 1px solid green;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+}

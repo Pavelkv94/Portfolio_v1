@@ -1,0 +1,36 @@
+@import "./../../common/styles/sass/variables.scss";
+@import "./../../common/styles/sass/mixins.scss";
+
+.mySkillBlock {
+  width: 250px;
+  border: 1px solid white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  @media screen and (max-device-width: 768px) {
+    margin-top: 10px;
+  }
+  .iconBlock {
+    width: 60px;
+    height: 60px;
+    background-color: $bgColor;
+    font-size: 50px;
+    margin: 15px;
+    .icon {
+      color: $primaryColor;
+    }
+  }
+  & h3 {
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    padding: 0;
+    @include text($josefineFontFamily, 16px, 1.2);
+  }
+  & span {
+    @include text($poppinsFontFamily, 14px, 1.8);
+    font-weight: 400;
+  }
+}
