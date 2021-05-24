@@ -10,19 +10,28 @@
     flex-wrap: wrap;
 }
 
-
 .projects {
     border: 1px solid green;
     display: flex;
     justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
+    margin-top: 30px;
+    align-items: flex-start;
 }
 
 @media screen and (max-device-width: 768px) {
     .projects {
         border: 1px solid green;
         display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+@media screen and (max-device-width: 1128px) {
+    .projects {
+        display: flex;
+        align-items: center;
         justify-content: space-between;
         flex-direction: column;
     }

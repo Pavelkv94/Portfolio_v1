@@ -1,12 +1,11 @@
 .project {
-    width: 30vw;
-    background-color: grey;
+    width: 39vw;
+    background: #252527;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    padding: 10px;
 }
 
 .image {
@@ -15,8 +14,44 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(140, 246, 250, 0.445);
+    background-color: rgb(253, 253, 253);
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
+
+.image::before {
+    position: absolute;
+    content: "";
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 40%;
+}
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    margin: 0 0 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.projectInfo {
+    padding: 25px 20px;
+}
+
 @media screen and (max-device-width: 768px) {
     .project {
         min-width: 80vw;
