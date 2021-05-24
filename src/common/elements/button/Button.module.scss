@@ -1,9 +1,11 @@
+@import './../../styles/sass/variables.scss';
+
 .button {
     width: 200px;
     height: 50px;
     background-color: rgb(66, 66, 66);
     margin: 10px;
-    color: #fcfcfc;
+    color: $textColor;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -12,11 +14,11 @@
     border: none;
     position: relative;
     z-index: 1;
-}
-
-.button:hover {
+    &:hover {
     background-color: rgb(37, 37, 37);
     cursor: pointer;
     box-shadow: 5px 5px 5px black;
     text-decoration: underline;
 }
+}
+

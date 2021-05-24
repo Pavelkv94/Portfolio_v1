@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../../common/elements/button/Button';
-import s from './SingleProject.module.css'
+import s from './SingleProject.module.scss'
 
 
 export function SingleProject(props) {

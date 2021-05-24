@@ -1,0 +1,35 @@
+@import './../common/styles/sass/variables.scss';
+
+
+.projectsBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+  .projectsContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .projects {
+      border: 1px solid green;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      align-items: flex-start;
+
+      @media screen and (max-device-width: 768px) {
+        border: 1px solid green;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+      @media screen and (max-device-width: 1128px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+    }
+  }
+}
