@@ -5,6 +5,7 @@
   height: 40vh;
   background-color: $bgSecColor;
   .container {
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
   }

@@ -48,6 +48,9 @@
     border: $border;
     background-image: url('./../assets/images/avatar.jpg');
     @include photo();
+    @media screen and (min-device-width: 1200px) {
+      margin-right: 200px;
+    }
   }
 }
 
