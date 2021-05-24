@@ -7,7 +7,7 @@ export function SingleProject(props) {
     return (
         <div className={s.project}>
             <div className={s.image} style={props.style}>
-                <Button title="Look" />
+                <Button title="Look" linker={props.linker} />
             </div>
             <div className={s.projectInfo}>
                 <h3 className={s.title}>{props.title}</h3>

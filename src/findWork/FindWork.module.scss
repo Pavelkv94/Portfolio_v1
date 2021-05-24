@@ -1,0 +1,13 @@
+@import "./../common/styles/sass/variables.scss";
+@import "./../common/styles/sass/mixins.scss";
+
+.findBlock {
+  height: 40vh;
+  background-color: $bgSecColor;
+  .container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+

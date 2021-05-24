@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Contacts.module.css'
+import s from './Contacts.module.scss'
 import styleContainer from '../common/styles/styleContainer.module.css'
 import { Button } from '../common/elements/button/Button';
 import { Title } from '../common/elements/Title/Title';
@@ -15,7 +15,7 @@ export function Contacts() {
                     <input type="email" placeholder="email" className={s.input} />
                     <textarea placeholder="Your messaage" className={s.textarea} />
                 </form>
-                <Button title="Send" type={"submit"} />
+                <Button title="Send" type={"submit"} linker="#" />
             </div>
         </div>
     )

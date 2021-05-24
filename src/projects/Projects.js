@@ -22,11 +22,14 @@ export function Projects() {
                         title="Calculator"
                         description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
                         style={calc}
+                        linker="https://pavelkv94.github.io/calculator"
                     />
                     <SingleProject
                         title="Meditation-App"
                         description="Lorem asdasddas asd ads adsipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
                         style={meditation}
+                        linker="https://pavelkv94.github.io/Meditation-App/"
+
                     />
                 </div>
             </div>
