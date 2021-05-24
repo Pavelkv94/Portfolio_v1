@@ -1,0 +1,53 @@
+@import "./../common/styles/sass/variables.scss";
+@import "./../common/styles/sass/mixins.scss";
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor;
+  .mainTitle {
+    margin: 5px;
+    width: 350px;
+    border: 1px red solid;
+    & span {
+      @include text($poppinsFontFamily, 16px, 1.8);
+      font-weight: 400;
+    }
+    & p {
+      @include text($poppinsFontFamily, 27px, 1.8);
+      font-weight: 400;
+      margin: 0;
+    }
+    & h1 {
+      @include text($josefineFontFamily, 50px, 1.2);
+      padding: 10px 0 10px;
+      font-weight: 700;
+      position: relative;
+      z-index: 1;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 15px;
+        height: 20px;
+        width: 100%;
+        z-index: -1;
+        background: #4e93e6;
+      }
+    }
+  }
+  @media screen and (max-device-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainPhoto {
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    border: 1px red solid;
+    background-image: url('./../assets/images/avatar.jpg');
+    @include photo();
+  }
+}
+

@@ -7,3 +7,8 @@
   line-height: $lineHeight;
 }
 
+@mixin photo() {
+  background-color: $textColor;
+  background-size: cover;
+  background-position: center;
+}

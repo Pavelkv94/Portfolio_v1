@@ -39,13 +39,13 @@
     padding: 25px 20px;
 
     .title {
-      @include text('"Josefin Sans", sans-serif', 16px, 1.2);
+      @include text($josefineFontFamily, 16px, 1.2);
       letter-spacing: 1px;
       margin: 0 0 5px;
     }
 
     .description {
-      @include text('"Poppins", sans-serif', 14px, 1.8);
+      @include text($poppinsFontFamily, 14px, 1.8);
       font-weight: 400;
     }
   }
