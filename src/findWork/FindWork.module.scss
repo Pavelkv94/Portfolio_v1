@@ -2,7 +2,7 @@
 @import "./../common/styles/sass/mixins.scss";
 
 .findBlock {
-  height: 40vh;
+  min-height: 40vh;
   background-color: $bgSecColor;
   .container {
     display: flex;
