@@ -19,15 +19,16 @@
       .input {
         min-width: 40vw;
         height: 50px;
-        font-size: 25px;
+        font-size: 20px;
         background-color: $bgSecColor;
         border: 2px solid rgb(24, 24, 24);
+
       }
 
       .textarea {
         width: 40vw;
         min-height: 30vh;
-        font-size: 18px;
+        font-size: 20px;
         background-color: $bgSecColor;
         border: 2px solid rgb(24, 24, 24);
       }
