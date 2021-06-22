@@ -15,7 +15,7 @@
   .mainTitle {
     margin: 5px;
     width: 350px;
-    & span {
+    & h1 {
       @include text($poppinsFontFamily, 16px, 1.8);
       font-weight: 400;
     }
@@ -24,7 +24,7 @@
       font-weight: 400;
       margin: 0;
     }
-    & h1 {
+    & span {
       @include text($josefineFontFamily, 50px, 1.2);
       padding: 10px 0 10px;
       font-weight: 700;
@@ -35,7 +35,7 @@
         position: absolute;
         left: 0;
         right: 0;
-        bottom: 15px;
+        bottom: 10px;
         height: 20px;
         width: 100%;
         z-index: -1;
@@ -49,11 +49,22 @@
     align-items: center;
   }
   .mainPhoto {
+    position: relative;
     width: 300px;
     height: 400px;
     margin: 5px;
     background-image: url("./../assets/images/avatar.jpg");
     z-index: 1;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 15px;
+      top: -15px;
+      height: 110%;
+      width: 105%;
+      border: 5px solid #4e93e6;
+      z-index: -1;
+    }
     @include photo();
     @media screen and (min-device-width: 1200px) {
       margin-right: 200px;

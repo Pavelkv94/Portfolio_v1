@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Main.module.scss'
 import styleContainer from '../common/styles/styleContainer.module.css'
 import Particles from 'react-particles-js'
+import Tilt from 'react-tilt'
 
 const particlesOpt = {
     "particles": {
@@ -21,11 +22,12 @@ export function Main() {
             <Particles className={s.particles} params={particlesOpt} />
             <div className={styleContainer.container}>
                 <div className={s.mainTitle}>
-                    <span>Hi There </span>
-                    <h1> My name is Pavel Kozlov.</h1>
+                    <h1>Hi There </h1>
+                    <span> My name is <span>Pavel</span> <span>Kozlov.</span></span>
                     <p>I'm frontend-developer!</p>
                 </div>
-                <div className={s.mainPhoto}></div>
+                <div className={s.mainPhoto}>
+                </div>
             </div>
         </div>
     )

@@ -18,8 +18,12 @@
     background-color: $bgColor;
     font-size: 50px;
     margin: 15px;
+    transform: rotate(45deg);
     .icon {
       color: $primaryColor;
+      transform: rotate(-45deg);
+      margin-bottom: 5px;
+      width: 40px;
     }
   }
   & h3 {

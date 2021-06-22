@@ -27,12 +27,12 @@
     &::before {
       position: absolute;
       content: "";
-      background-color: $textColor;
+      background-color: rgb(36, 36, 36);
       top: 0;
       bottom: 0;
       left: 0;
       right: 0;
-      opacity: 40%;
+      opacity: 50%;
     }
   }
   .projectInfo {
