@@ -6,9 +6,7 @@ import Fade from 'react-reveal/Fade';
 export function Header() {
     return (
         <div className={s.header}>
-            <Fade top>
-                <Nav />
-            </Fade>
+            <Nav />
         </div>
     )
 }

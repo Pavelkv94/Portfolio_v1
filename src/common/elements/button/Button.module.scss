@@ -51,6 +51,7 @@
   &:hover {
     text-decoration: none;
     color: $textColor;
+    cursor: pointer;
     &::after {
       width: 100%;
       height: 110%;

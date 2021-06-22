@@ -24,7 +24,7 @@ export function Projects() {
         backgroundImage: `url(${todolistImage})`,
     };
     return (
-        <div className={s.projectsBlock}>
+        <div className={s.projectsBlock} id="projects">
             <Fade bottom>
                 <div className={`${styleContainer.container} ${s.projectsContainer}`}>
                     <Title title="My projects" />

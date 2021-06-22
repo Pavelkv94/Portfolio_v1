@@ -1,11 +1,15 @@
 @import "./../../common/styles/sass/variables.scss";
 @import "./../../common/styles/sass/mixins.scss";
 
+
+
 .nav {
   width: 300px;
   display: flex;
   justify-content: space-between;
   margin-right: 15px;
+  z-index: 1;
+
   & a {
     color: $textColor;
     text-decoration: none;
@@ -18,5 +22,6 @@
     transform: scale(1.05);
     transition: 0.2s;
     color: $primaryColor;
+    cursor: pointer;
   }
 }
