@@ -1,5 +1,4 @@
-@import './../common/styles/sass/variables.scss';
-
+@import "./../common/styles/sass/variables.scss";
 
 .projectsBlock {
   min-height: 100vh;
@@ -10,7 +9,6 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     .projects {
-      border: $border;
       display: flex;
       justify-content: space-between;
       width: 100%;
@@ -19,7 +17,6 @@
       align-items: flex-start;
 
       @media screen and (max-device-width: 768px) {
-        border: $border;
         display: flex;
         justify-content: space-between;
         flex-direction: column;

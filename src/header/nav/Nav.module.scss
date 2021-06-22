@@ -2,7 +2,6 @@
 @import "./../../common/styles/sass/mixins.scss";
 
 .nav {
-  border: $border;
   width: 300px;
   display: flex;
   justify-content: space-between;
@@ -19,6 +18,5 @@
     transform: scale(1.05);
     transition: 0.2s;
     color: $primaryColor;
-
   }
 }
