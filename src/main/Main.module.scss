@@ -25,21 +25,30 @@
       margin: 0;
     }
     & span {
-      @include text($josefineFontFamily, 50px, 1.2);
-      padding: 10px 0 10px;
-      font-weight: 700;
-      position: relative;
-      z-index: 1;
-      &::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 10px;
-        height: 20px;
-        width: 100%;
-        z-index: -1;
-        background: #4e93e6;
+      &:nth-child(2) {
+        @include text($josefineFontFamily, 50px, 1.2);
+        padding: 10px 0 10px;
+        font-weight: 700;
+        position: relative;
+        z-index: 1;
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 10px;
+          height: 20px;
+          width: 100%;
+          z-index: -1;
+          background: #4e93e6;
+        }
+      }
+      &:nth-child(4) {
+        @include text($poppinsFontFamily, 27px, 1.8);
+        margin: 0;
+        ::after {
+          background: none;
+        }
       }
     }
   }

@@ -2,7 +2,8 @@ import React from 'react';
 import s from './Main.module.scss'
 import styleContainer from '../common/styles/styleContainer.module.css'
 import Particles from 'react-particles-js'
-import Tilt from 'react-tilt'
+import Fade from 'react-reveal/Fade';
+import ReactTypingEffect from 'react-typing-effect';
 
 const particlesOpt = {
     "particles": {
@@ -19,15 +20,23 @@ const particlesOpt = {
 export function Main() {
     return (
         <div className={s.mainBlock}>
+
             <Particles className={s.particles} params={particlesOpt} />
+
             <div className={styleContainer.container}>
-                <div className={s.mainTitle}>
-                    <h1>Hi There </h1>
-                    <span> My name is <span>Pavel</span> <span>Kozlov.</span></span>
-                    <p>I'm frontend-developer!</p>
-                </div>
-                <div className={s.mainPhoto}>
-                </div>
+                <Fade left>
+                    <div className={s.mainTitle}>
+                        <h1>Hi There </h1>
+                        <span> My name is Pavel Kozlov.</span>
+                        <br/>
+                        <ReactTypingEffect text="I'm frontend-developer!" />
+                    </div>
+                   
+                </Fade>
+                <Fade right>
+                    <div className={s.mainPhoto}>
+                    </div>
+                </Fade>
             </div>
         </div>
     )
