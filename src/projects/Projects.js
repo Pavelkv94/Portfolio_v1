@@ -31,25 +31,25 @@ export function Projects() {
                     <div className={s.projects}>
                         <SingleProject
                             title="Calculator"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+                            description="Native JS, use localstorage"
                             style={calc}
                             linker="https://pavelkv94.github.io/calculator"
                         />
                         <SingleProject
                             title="Meditation-App"
-                            description="Lorem asdasddas asd ads adsipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+                            description="Native JS, work with audio/video files"
                             style={meditation}
                             linker="https://pavelkv94.github.io/Meditation-App/"
                         />
                         <SingleProject
                             title="Momentum-App"
-                            description="Lorem asdasddas asd ads adsipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+                            description="Native JS, use localstorage"
                             style={momentum}
                             linker="https://pavelkv94.github.io/Momentum/"
                         />
                         <SingleProject
                             title="Todolist"
-                            description="Lorem asdasddas asd ads adsipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+                            description="React, redux, Typescript"
                             style={todolist}
                             linker="https://pavelkv94.github.io/Todolist/"
                         />

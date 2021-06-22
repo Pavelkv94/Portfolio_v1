@@ -21,6 +21,7 @@
         font-size: 20px;
         background-color: $bgSecColor;
         border: 2px solid rgb(24, 24, 24);
+        color: $textColor;
       }
 
       .textarea {
@@ -28,6 +29,7 @@
         min-height: 30vh;
         font-size: 20px;
         background-color: $bgSecColor;
+        color: $textColor;
         border: 2px solid rgb(24, 24, 24);
       }
     }

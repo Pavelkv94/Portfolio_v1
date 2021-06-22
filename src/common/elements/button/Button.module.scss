@@ -26,12 +26,12 @@
 .button {
   border: none;
   @include flex(row, center, center, nowrap);
-  @include text($poppinsFontFamily, 14px, 1.2);
+  @include text($poppinsFontFamily, 18px, 1.2);
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 8px 20px;
-  max-width: 160px;
+  max-width: 200px;
   width: 100%;
   color: $textColor;
   outline: none;

@@ -3,8 +3,10 @@ import s from './Skills.module.scss'
 import styleContainer from '../common/styles/styleContainer.module.css'
 import { MySkill } from './mySkill/MySkill';
 import { Title } from '../common/elements/Title/Title';
-import { faCss3, faGithub, faHtml5, faJs, faReact, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faGithub, faHtml5, faJs, faNpm, faReact, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import Fade from 'react-reveal/Fade';
+import { faFax, faRocket } from '@fortawesome/free-solid-svg-icons';
+
 
 export function Skills() {
     return (
@@ -16,37 +18,38 @@ export function Skills() {
                         <MySkill
                             icon={faReact}
                             title="React"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+                            description="React, redux, thunk, react router dom, websocket, RestAPI "
                         />
                         <MySkill
                             icon={faHtml5}
                             title="HTML"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+                            description="HTML5, ESP6"
                         />
                         <MySkill
                             icon={faJs}
                             title="JavaScript"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+                            description="Javascript, Typescript"
                         />
                         <MySkill
                             icon={faCss3}
                             title="Css3"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+                            description="Css3, SASS, SCSS, bootstrap, flex, grid, Material UI"
                         />
                         <MySkill
-                            icon={faStackOverflow}
-                            title="StackOverflow"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
-                        />
-                        <MySkill
-                            icon={faGithub}
-                            title="Git"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+                            icon={faNpm}
+                            title="npm"
+                            description="npm, storybook, axios, formik"
                         />
                         <MySkill
                             icon={faGithub}
                             title="Git"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+                            description="GitHub"
+                        />
+                        <MySkill
+                            icon={faRocket}
+                            title="Other"
+                            description="Refactoring, bug fixing, migrating to TypeScript, registration and login form creation.
+                             Reusable components development, jest testing."
                         />
                     </div>
                 </div>
