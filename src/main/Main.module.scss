@@ -4,6 +4,14 @@
 .mainBlock {
   height: 100vh;
   background-color: $bgColor;
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+  }
   .mainTitle {
     margin: 5px;
     width: 350px;
@@ -46,11 +54,11 @@
     height: 400px;
     margin: 5px;
     border: $border;
-    background-image: url('./../assets/images/avatar.jpg');
+    background-image: url("./../assets/images/avatar.jpg");
+    z-index: 1;
     @include photo();
     @media screen and (min-device-width: 1200px) {
       margin-right: 200px;
     }
   }
 }
-

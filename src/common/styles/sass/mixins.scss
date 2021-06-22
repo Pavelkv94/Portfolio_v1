@@ -12,3 +12,22 @@
   background-size: cover;
   background-position: center;
 }
+
+@mixin container() {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin bgSetting() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin flex($direction, $justifyContent, $alignItems, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  flex-wrap: $wrap;
+}
