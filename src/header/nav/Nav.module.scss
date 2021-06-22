@@ -1,14 +1,13 @@
 @import "./../../common/styles/sass/variables.scss";
 @import "./../../common/styles/sass/mixins.scss";
 
-
-
 .nav {
   width: 300px;
   display: flex;
   justify-content: space-between;
   margin-right: 15px;
   z-index: 1;
+  margin-right: 50px;
 
   & a {
     color: $textColor;
@@ -19,6 +18,12 @@
   }
   & a:hover {
     text-decoration: underline;
+    transform: scale(1.05);
+    transition: 0.2s;
+    color: rgb(120, 189, 253);
+    cursor: pointer;
+  }
+  .active {
     transform: scale(1.05);
     transition: 0.2s;
     color: $primaryColor;
