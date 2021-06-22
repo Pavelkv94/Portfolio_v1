@@ -29,4 +29,7 @@
     color: $primaryColor;
     cursor: pointer;
   }
+  @media screen and (max-width : 400px) {
+    display: none;
+  }
 }
