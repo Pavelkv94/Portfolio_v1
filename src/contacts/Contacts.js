@@ -10,7 +10,7 @@ export function Contacts() {
     const submitCallback = (e) => {
         e.preventDefault();
         //console.log(e.target[0].value)
-        axios.post("http://localhost:3010/send", { name: e.target[0].value, email: e.target[1].value, message: e.target[2].value })
+        axios.post("https://smtp-nodejs-serverr.herokuapp.com/send", { name: e.target[0].value, email: e.target[1].value, message: e.target[2].value })
             .then(() => { alert('Your message has been sent') })
     }
 
